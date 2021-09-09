@@ -238,7 +238,7 @@ footer{
     font-size: 36px;
     margin-left: 10px;
 }
-.margin:hover{
+.social:hover{
     transform: scale(1.2);
     transition: 0.5s;
 }
@@ -282,6 +282,9 @@ font-size: 60px;
         display: none;
     }
 
-    
+    .img:hover{
+        transform: scale(1);
+   
+    }
     
   }
