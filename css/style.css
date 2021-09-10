@@ -363,6 +363,8 @@ font-size: 60px;
     .contact_about{
         width: 70%;
         margin: auto;
+    }
+    .contact_about h3{
         text-align: center;
     }
 
