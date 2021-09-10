@@ -363,11 +363,14 @@ font-size: 60px;
     .contact_about{
         width: 70%;
         margin: auto;
+        text-align: center;
     }
 
     .contact_head img{
         display: block;
         margin: auto;
+        width: 100px;
+        height: 50px;
     }
 
     .form{
