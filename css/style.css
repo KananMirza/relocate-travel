@@ -265,7 +265,7 @@ transition:0.5s
 
     .contact_info {
         padding-left: 20px;
-        border-left: 1px solid #00BEAC;
+        border-left: 3px solid #00BEAC;
         margin-top: 50px;
         width: 300px;
     }
