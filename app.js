@@ -19,5 +19,6 @@ $(document).ready(function(){
     return false;
 })
 $('.tabs').tabs();
-
+$('.parallax').parallax();
+$('.materialboxed').materialbox();
   });
