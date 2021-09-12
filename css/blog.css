@@ -62,7 +62,15 @@ span{
     align-items: center;
     color: #fff;
 }
+.s4 a{
+    background: #fff;
+    color: #0CA296 ;
+    border-radius: 10px;
+}
 
+.s4 a:hover{
+    background-color: #e5e5e5;
+}
 
 
 @media only screen and (max-width: 1024px) {
