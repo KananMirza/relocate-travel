@@ -1,16 +1,19 @@
-function Blog(){
+function BlogContent(){
     var xhr = new XMLHttpRequest;
     xhr.open("GET","blog.json",true);
     xhr.onload = function(){
         if(this.status === 200){
             
             var content = JSON.parse(this.responseText)
-            console.log(content[0].star)
+           
             
            var  section = "";
           
-            let id = 5;
+           
+            let id= 5
 
+            // let number = JSON.parse(localStorage.id)
+            // let id =number.id[0]
             section+=`<div class="content col s6">
             <h2>About</h2>
 
@@ -48,22 +51,21 @@ function Blog(){
             </div>
           </div>`;
             
-            document.getElementsByClassName('blog')[0].innerHTML = section
-            
-            var container ="";
-            container +=`
+            document.getElementsByClassName('content')[0].innerHTML = section;
+
+            let title='';
+            title+=`
             <h1>${content[id].title}</h1>
             <h5>${content[id].subtitle}</h5>
-            <div class="parallax"><img src='https://blog.amstardmc.com/wp-content/uploads/2015/09/secrets-mobay.jpg'>
-            </div>`
-
-          document.getElementById('container').innerHTML  =container;
-
+            <div class="parallax"><img src='images/blog/background.jpg' alt="">
+            </div>
+            `
+            document.getElementById("container").innerHTML = title;
+         
         }
     }
 
     xhr.send();
 }
 
-Blog();
-
+BlogContent();

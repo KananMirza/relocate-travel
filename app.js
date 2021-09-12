@@ -22,3 +22,23 @@ $('.tabs').tabs();
 $('.parallax').parallax();
 $('.materialboxed').materialbox();
   });
+
+
+// function CheckUser(){
+//     if(localStorage.getItem('id')=== null){
+//         var Blog = {
+//             id:[]
+//         }
+//     }
+//     var Blog = {
+//         id:[6]
+//     }
+    
+//     localStorage.setItem('id', JSON.stringify(Blog));
+    
+    
+// }
+
+
+// CheckUser();
+
