@@ -64,6 +64,7 @@ span{
 }
 
 
+
 @media only screen and (max-width: 1024px) {
 
     .blog{
@@ -81,6 +82,15 @@ span{
     }
     .city_size,.city_weather,.safety{
         font-size: 11px !important;
+    }
+    .move{
+        flex-direction: column;
+    }
+    .move div{
+        width: 100% !important;
+    }
+    .move div:last-child{
+        margin-top: 20px;
     }
     
 }
