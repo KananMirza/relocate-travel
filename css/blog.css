@@ -61,6 +61,9 @@ span{
     display: flex;
     align-items: center;
     color: #fff;
+    background: #00BEAC;
+    padding: 50px;
+    border-radius: 10px;
 }
 .s4 a{
     background: #fff;
