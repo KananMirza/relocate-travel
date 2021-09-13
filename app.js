@@ -24,21 +24,32 @@ $('.materialboxed').materialbox();
   });
 
 
-// function CheckUser(){
-//     if(localStorage.getItem('id')=== null){
-//         var Blog = {
-//             id:[]
-//         }
-//     }
-//     var Blog = {
-//         id:[6]
-//     }
-    
-//     localStorage.setItem('id', JSON.stringify(Blog));
-    
-    
-// }
 
+    
+   
+    $('.blog').click((data)=>{
+      let ID = data.target.id
+     console.log(data.target.id)
+     localStorage.setItem('contentid', ID);
+    
 
-// CheckUser();
+    })
+
+    $('.submit').click(()=>{
+      let name = document.getElementById('name').value;
+      let email = document.getElementById('email').value
+      let msg = document.getElementById('msg').value;
+      if(name == ''){
+        swal("Please check your Name");
+      }else if(email == ''){
+        swal("Please check your Email");
+      }else if(msg == ''){
+        swal("Please check your Message");
+      } else{
+      swal("Good job!", `Thanks for message, ${name}`, "success");
+    }
+    })
+   
+    
+
 

@@ -10,7 +10,7 @@ function BlogContent(){
            var  section = "";
           
            
-            let id= 5
+            let id= localStorage.getItem('contentid')
 
             // let number = JSON.parse(localStorage.id)
             // let id =number.id[0]
