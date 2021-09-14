@@ -1,61 +1,66 @@
-.parallax-container{
+.parallax-container {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-h1{
+
+h1 {
     color: #fff;
 }
 
-.about{
+.about {
     display: flex;
     align-items: center;
     padding-bottom: 50px;
-     
+
 }
- 
-.image{
+
+.image {
     margin-top: 50px;
-    
+
 }
-.article{
+
+.article {
     margin-left: 50px;
 }
 
 
-.about_title h2{
+.about_title h2 {
     font-size: 24px;
 }
 
-.about_title p{
+.about_title p {
     color: #00BEAC;
     font-size: 16px;
 }
 
-.about_content{
+.about_content {
     width: 90%;
 }
+
 @media only screen and (max-width: 1024px) {
- 
-    .container{
+
+    .container {
         flex-direction: column-reverse;
     }
-    .about_title h2{
+
+    .about_title h2 {
         font-size: 24px;
         width: 250px;
-       
-    }
-    .about_title p{
-        font-size: 20px;
-    
-    }    
 
-    .about_title{
-       
+    }
+
+    .about_title p {
+        font-size: 20px;
+
+    }
+
+    .about_title {
+
         align-items: center;
     }
-    
-   .image img{
+
+    .image img {
         width: 90%;
         margin: auto;
     }

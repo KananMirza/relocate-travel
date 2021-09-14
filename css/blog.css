@@ -1,63 +1,77 @@
-h1,h5{
+h1,
+h5 {
     color: #fff;
     text-align: center;
 }
-.content{
+
+.content {
     width: 90%;
     margin: auto;
     background: #F5FFFE;
 }
-h2{
+
+h2 {
     text-align: center;
     color: #00A77F;
 }
-.details{
+
+.details {
     margin-top: 50px;
-    
-}
-.city_details{
-border: 1px solid #E5E5E5;
-box-sizing: border-box;
-border-radius: 10px;
-}
-.city_weather{
-   border-left: 1px solid #E5E5E5; 
-   border-right: 1px solid #E5E5E5;
+
 }
 
-.city_size,.city_weather,.safety{
+.city_details {
+    border: 1px solid #E5E5E5;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.city_weather {
+    border-left: 1px solid #E5E5E5;
+    border-right: 1px solid #E5E5E5;
+}
+
+.city_size,
+.city_weather,
+.safety {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-   
+
 }
 
-.photos{
+.photos {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
+
 }
-.photos img{
+
+.photos img {
     margin-bottom: 10px;
     width: 100%;
 }
 
-.fa-users{
+.fa-users {
     color: #00A77F;
 }
-.fa-star{
+
+.fa-star {
     color: #ffff00;
 }
-span{
+
+span {
     color: #000;
     margin-left: 5px;
 }
-.fa-users,.fa-star{
+
+.fa-users,
+.fa-star {
     margin-top: 10px;
 }
-.move{
+
+.move {
     display: flex;
     align-items: center;
     color: #fff;
@@ -65,43 +79,51 @@ span{
     padding: 50px;
     border-radius: 10px;
 }
-.s4 a{
+
+.s4 a {
     background: #fff;
-    color: #0CA296 ;
+    color: #0CA296;
     border-radius: 10px;
 }
 
-.s4 a:hover{
+.s4 a:hover {
     background-color: #e5e5e5;
 }
 
 
 @media only screen and (max-width: 1024px) {
 
-    .blog{
+    .blog {
         display: flex;
         flex-direction: column;
-        
+
     }
 
-    .content{
+    .content {
         width: 100% !important;
     }
-    .details{
+
+    .details {
         width: 100% !important;
-        
+
     }
-    .city_size,.city_weather,.safety{
+
+    .city_size,
+    .city_weather,
+    .safety {
         font-size: 10px !important;
     }
-    .move{
+
+    .move {
         flex-direction: column;
     }
-    .move div{
+
+    .move div {
         width: 100% !important;
     }
-    .move div:last-child{
+
+    .move div:last-child {
         margin-top: 20px;
     }
-    
+
 }

@@ -1,36 +1,39 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
-body{
+
+body {
     /*font-family: 'Caveat', cursive;*/
     font-family: 'Montserrat', sans-serif;
 }
 
-nav{
+nav {
     display: flex;
 }
 
-.sidenav-trigger i{
-    color: #000;;
+.sidenav-trigger i {
+    color: #000;
+
 }
 
-.link{
+.link {
     margin-right: 150px;
 }
 
-.link a{
+.link a {
     margin-right: 20px;
-    color:#000;
+    color: #000;
     font-weight: bold;
 }
-.link a:hover{
-    color:#0CA296;
+
+.link a:hover {
+    color: #0CA296;
     transition: 0.5s;
 }
 
-.home{
+.home {
     height: 100vh;
     width: 100%;
     background-image: url("../images/background.png");
@@ -41,25 +44,26 @@ nav{
     justify-content: space-around;
 }
 
-.home img{
+.home img {
     margin-right: 100px;
 }
 
-.bottom{
+.bottom {
     display: flex;
     align-items: center;
     font-size: 18px;
-    color:#fff;
+    color: #fff;
     margin-top: 250px;
     font-weight: 500;
 }
+
 .bottom p {
     margin-left: 20px;
     margin-top: 30px;
     width: 150px;
 }
 
-.top-dest{
+.top-dest {
     background: linear-gradient(180deg, #00BEAC 43.53%, rgba(0, 190, 172, 0) 100%);
     display: flex;
     flex-direction: column;
@@ -67,27 +71,29 @@ nav{
     padding-top: 100px;
 }
 
-.text{
+.text {
     position: relative;
     display: flex;
     justify-content: center;
 }
 
-.top{
+.top {
     color: #FFD600;
     font-family: 'Caveat', cursive;
     font-size: 80px;
     position: absolute;
     bottom: 30px;
-  
+
 }
-.dest{
+
+.dest {
     color: #fff;
     font-size: 60px;
     font-weight: 800;
 }
 
-.article-top,.article-more{
+.article-top,
+.article-more {
     width: 950px;
     font-size: 24px;
     color: #fff;
@@ -95,46 +101,47 @@ nav{
     margin-top: 50px;
 }
 
-.cards{
+.cards {
     display: flex;
     padding-top: 50px;
 }
 
-
-.card{
+.card {
     border-radius: 10px !important;
     margin-left: 20px !important;
 }
 
-.activator{
+.activator {
     border-top-left-radius: 10px !important;
     border-top-right-radius: 10px !important;
 }
-.more-dest{
+
+.more-dest {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-top: 100px;
 }
 
-.more{
-    color:#0CA296;
+.more {
+    color: #0CA296;
     font-family: 'Caveat', cursive;
     font-size: 80px;
     position: absolute;
     bottom: 30px;
 }
-.desc{
+
+.desc {
     color: #000;
     font-size: 60px;
     font-weight: 800;
 }
 
-.article-more{
+.article-more {
     color: #000;
 }
 
-#up{
+#up {
     width: 50px;
     height: 50px;
     position: fixed;
@@ -146,164 +153,164 @@ nav{
     font-weight: bold;
     text-align: center;
     border-radius: 50%;
-    display:none ;
+    display: none;
     cursor: pointer;
-    
-
 }
 
 /* contact*/
-    .contact{
-        display: flex;
-        flex-direction: column;
-        margin-bottom: 100px;
-    }
-    .contact_title{
-        display: flex;
-        justify-content: center;
-        text-align: center;
-    }
-    .contact_title h2{
-        font-size: 40px;
-        width: 250px;
-       
-    }
-    
-    .contact_title p{
-        font-size: 16px;
-        color: #00BEAC;
-    }
+.contact {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
 
-    .contact_connect{
-        display: flex;
-        justify-content: space-around;
-    }
+.contact_title {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
 
-    .contact_connect h3{
-        font-size: 24px;
-        width: 300px;
-    }
+.contact_title h2 {
+    font-size: 40px;
+    width: 250px;
 
-    .contact_about{
-        margin-right: 50px;
-    }
+}
 
-    .contact_info {
-        padding-left: 20px;
-        border-left: 3px solid #00BEAC;
-        margin-top: 50px;
-        width: 300px;
-    }
-    .contact_info li{
-        margin-top: 30px;
-    }
+.contact_title p {
+    font-size: 16px;
+    color: #00BEAC;
+}
 
-    ul i{
-        margin-right: 10px;
-    }
+.contact_connect {
+    display: flex;
+    justify-content: space-around;
+}
 
-    .form{
-        width: 350px;
-        text-align: center;
-    }
+.contact_connect h3 {
+    font-size: 24px;
+    width: 300px;
+}
 
-    .form input{
-        margin-bottom: 30px !important;
-    }
-    
+.contact_about {
+    margin-right: 50px;
+}
 
-    .form textarea{
-        resize: none;
-        height: 150px;
-    }
-    .form a{
-        margin-top: 30px;
-        margin-bottom: 30px;
-    }
-    textarea{
-        padding: 10px;
-    }
+.contact_info {
+    padding-left: 20px;
+    border-left: 3px solid #00BEAC;
+    margin-top: 50px;
+    width: 300px;
+}
+
+.contact_info li {
+    margin-top: 30px;
+}
+
+ul i {
+    margin-right: 10px;
+}
+
+.form {
+    width: 350px;
+    text-align: center;
+}
+
+.form input {
+    margin-bottom: 30px !important;
+}
+
+.form textarea {
+    resize: none;
+    height: 150px;
+}
+
+.form a {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+textarea {
+    padding: 10px;
+}
+i a{
+    color: #000;
+}
 
 /* contact end*/
 
-footer{
+footer {
     background-color: #003531;
     color: #D0D0D0;
 }
 
-.social{
+.social {
     font-size: 36px;
     margin-left: 10px;
 }
-.social:hover{
+
+.social:hover {
     transform: scale(1.2);
     transition: 0.5s;
 }
 
 
 @media only screen and (max-width: 1024px) {
-    .home{
+    .home {
         display: none;
     }
-    .top,.more{
+
+    .top,
+    .more {
         font-size: 60px;
     }
-    .dest,.desc{
+
+    .dest,
+    .desc {
         font-size: 40px;
     }
-    .article-top,.article-more{
+
+    .article-top,
+    .article-more {
         width: 90%;
         margin: auto;
         font-size: 16px;
     }
 
-    .cards{
+    .cards {
         flex-direction: column;
     }
-    .img{
-        width: 90%;
-        margin: auto;
-        margin-top: 20px;
-    }
-    
-    .card-image{
+
+    .card-image {
         height: 350px !important;
     }
-    
-    .img:hover{
-        transform: scale(1);
-    }
 
-    .contact_connect{
+    .contact_connect {
         flex-direction: column-reverse;
         margin: auto;
     }
 
-    .contact_about{
+    .contact_about {
         width: 70%;
         margin: auto;
     }
-    .contact_about h3{
+
+    .contact_about h3 {
         text-align: center;
     }
 
-    .contact_head{
+    .contact_head {
         margin-top: 30px;
     }
-    .contact_head img{
+
+    .contact_head img {
         display: block;
         margin: auto;
         width: 100px;
         height: 50px;
     }
 
-    .form{
+    .form {
         width: 70%;
         margin: auto;
     }
-
-    .card{
-        margin-left: 0px !important;
-    }
-
-  }
+}
