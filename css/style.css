@@ -42,7 +42,6 @@ nav{
 }
 
 .home img{
-   
     margin-right: 100px;
 }
 
@@ -53,7 +52,6 @@ nav{
     color:#fff;
     margin-top: 250px;
     font-weight: 500;
-    
 }
 .bottom p {
     margin-left: 20px;
@@ -67,7 +65,6 @@ nav{
     flex-direction: column;
     align-items: center;
     padding-top: 100px;
-    
 }
 
 .text{
@@ -135,17 +132,6 @@ nav{
 
 .article-more{
     color: #000;
-}
-
-.row2{
-    display: flex;
-    flex-direction: column;
-    margin-left: 20px;
-}
-
-.cols1{
-    display: flex;
-
 }
 
 #up{
@@ -259,10 +245,10 @@ footer{
     .home{
         display: none;
     }
-    .top{
+    .top,.more{
         font-size: 60px;
     }
-    .dest{
+    .dest,.desc{
         font-size: 40px;
     }
     .article-top,.article-more{
@@ -271,7 +257,6 @@ footer{
         font-size: 16px;
     }
 
-    
     .cards{
         flex-direction: column;
     }
@@ -280,26 +265,8 @@ footer{
         margin: auto;
         margin-top: 20px;
     }
-
-    .more{
-font-size: 60px;
-    }
-    .desc{
-        font-size: 40px;
-        }
-
-
-
-    .row2{
-       display: none;
-    }
-    .cols1{
-        flex-direction: column;
-        margin: 0px;
-    }
     
     .card-image{
-        
         height: 350px !important;
     }
     
@@ -320,6 +287,9 @@ font-size: 60px;
         text-align: center;
     }
 
+    .contact_head{
+        margin-top: 30px;
+    }
     .contact_head img{
         display: block;
         margin: auto;
