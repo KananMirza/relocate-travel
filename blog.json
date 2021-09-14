@@ -8,7 +8,8 @@
     "citysize":"37,029 (2009)",
     "weatherhigh":29,
     "weatherlow":19,
-    "star":"4.8"
+    "star":"4.8",
+    "image":"paratybg"
 },
 {
     "content":"Morretes is a small historic city of the Brazilian state of Paraná. It has a population of around 16,000 people. It is famous for its restaurants, especially a traditional dish called barreado. It is also the home of many historical monuments.",
@@ -20,7 +21,8 @@
     "citysize":"97,029 (2017)",
     "weatherhigh":23,
     "weatherlow":14,
-    "star":"4.5"
+    "star":"4.5",
+    "image":"morretesbg"
 },
 {
     "content":"Olinda is a historic city in Pernambuco, Brazil, in the Northeast Region. It is located on the country's northeastern Atlantic Ocean coast, in the Metropolitan Region of Recife, the state capital. It has a population of 393,115 people, covers 41.681 square kilometres and has a population density of 9,437 inhabitants per square kilometer. It is noted as one of the best-preserved colonial cities in Brazil, and has been inhabited since 1535.",
@@ -32,7 +34,8 @@
     "citysize":"39,115 (2012)",
     "weatherhigh":28,
     "weatherlow":20,
-    "star":"4.3"
+    "star":"4.3",
+    "image":"olindabg"
 },
 {
     "content":"Gramado is a small tourist city, southeast of Caxias do Sul and east of Nova Petrópolis in the southern Brazilian state of Rio Grande do Sul, in the Serra Gaúcha region. The city was originally settled by Azorean descendants and later received a contingent of German and Italian immigrants. Gramado is one of the cities along the scenic route known as Rota Romântica.",
@@ -44,7 +47,8 @@
     "citysize":"393,115 (2019)",
     "weatherhigh":20,
     "weatherlow":0,
-    "star":"4.6"
+    "star":"4.6",
+    "image":"gramadobg"
 },
 {
     "content":"Estaing is a commune in the Aveyron department in the Occitanie region of Southern France. In 2016, it had a population of 491. The D'Estaing family, first mentioned in writings in 1028, was one of the most powerful families of the Rouergue from the 13th to the 18th century, making the village known throughout France.",
@@ -56,7 +60,8 @@
     "citysize":"607 (2008)",
     "weatherhigh":29,
     "weatherlow":13,
-    "star":"5.0"
+    "star":"5.0",
+    "image":"estaingbg"
 },
 {
     "content":"Despite its small size it is the largest settlement for some 70 km  around and is an important staging post, and thus it is indicated on road signs from a long distance away. It is an important service center for the inhabitants of and visitors to the coastal strip between Skógar and the west edge of the Mýrdalssandur glacial outwash plain.",
@@ -68,7 +73,8 @@
     "citysize":"318  (2016)",
     "weatherhigh":5.4,
     "weatherlow":2.8,
-    "star":"5.0"
+    "star":"5.0",
+    "image":"vikbg"
 },
 {
     "content":"Hamnøy or Hamnøya is a small fishing village in Moskenes Municipality in Nordland county, Norway. It is located on the eastern side of the island of Moskenesøya, about 1.5 kilometres  northeast of the village of Reine, along the Vestfjorden. Hamnøy was previously connected to Reine by ferry, but this was replaced by bridges on the European route E10 highway as part of the Lofoten Mainland Connection.",
@@ -80,7 +86,8 @@
     "citysize":"4720 (2018)",
     "weatherhigh":12,
     "weatherlow":0,
-    "star":"4.9"
+    "star":"4.9",
+    "image":"hamnoybg"
 },
 {
     "content":"Montego Bay is the capital of the parish of St. James in Jamaica. The city is the fourth-largest urban area in the country by population, after Kingston, Spanish Town, and Portmore, all of which form the Greater Kingston Metropolitan Area, home to over half a million people.As a result, Montego Bay is the second-largest anglophone city in the Caribbean, after Kingston.",
@@ -92,6 +99,7 @@
     "citysize":"427,891 (2018)",
     "weatherhigh":31,
     "weatherlow":24,
-    "star":"4.0"
+    "star":"4.0",
+    "image":"montegobg"
 }
 ]

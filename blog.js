@@ -9,15 +9,9 @@ function BlogContent(){
             let id= localStorage.getItem('contentid')
 
 
-            let title='';
-            title+=`
-            <h1>${content[id].title}</h1>
-            <h5>${content[id].subtitle}</h5>
-            <div class="parallax"><img src='images/blog/background.jpg' alt="">
-            </div>
-            `
-            document.getElementById("container").innerHTML = title;
-
+          $('#blogtitle').html(`${content[id].title}`)
+          $('#blogsubtitle').html(`${content[id].subtitle}`)
+          $('#background').attr('src',`images/blog/bg/${content[id].image}.jpg`)
            var  section = "";
           
            
