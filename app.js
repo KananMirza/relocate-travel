@@ -36,18 +36,25 @@ $('.materialboxed').materialbox();
     })
 
     $('.submit').click(()=>{
-      let name = document.getElementById('name').value;
-      let email = document.getElementById('email').value
-      let msg = document.getElementById('msg').value;
-      if(name == ''){
+      let name = document.getElementById('name');
+      let email = document.getElementById('email');
+      let msg = document.getElementById('msg');
+      if(name.value == ''){
         swal("Please check your Name");
-      }else if(email == ''){
+      }else if(email.value == ''){
         swal("Please check your Email");
-      }else if(msg == ''){
+      }else if(msg.value == ''){
         swal("Please check your Message");
       } else{
-      swal("Good job!", `Thanks for message, ${name}`, "success");
+      swal("Good job!", `Thanks for message, ${name.value}`, "success");
+      document.getElementById('name').value='';
+      document.getElementById('email').value='';
+      document.getElementById('msg').value = '';
+
     }
+
+    
+    
     })
    
     
