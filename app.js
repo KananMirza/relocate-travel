@@ -22,10 +22,6 @@ $('.tabs').tabs();
 $('.parallax').parallax();
 $('.materialboxed').materialbox();
   });
-
-
-
-    
    
     $('.blog').click((data)=>{
       let ID = data.target.id
