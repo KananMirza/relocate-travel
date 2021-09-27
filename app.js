@@ -27,8 +27,6 @@ $('.materialboxed').materialbox();
       let ID = data.target.id
      console.log(data.target.id)
      localStorage.setItem('contentid', ID);
-    
-
     })
 
     $('.submit').click(()=>{
