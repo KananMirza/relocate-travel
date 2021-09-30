@@ -8,6 +8,7 @@ $(document).ready(function(){
           $('#up').slideUp('slow')
       }
   })
+  
 
   $('#up').click(()=>{
       $('html,body').animate({scrollTop:0},1000)
